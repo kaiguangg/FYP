@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+body {
+    margin: 0;
+	background: #e9faff;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.form-control{
+	font-size: 15px;
+	height: 40px;
+	box-shadow: none;
+}
+.form-control:focus{
+	border-color: #999;
+}
+.form-control, .btn{
+	border-radius: 3px;
+}
+.form-control, .signup-btn {
+	border-radius: 3px;
+	border-color: #999;
+}
+.signup-form{
+	width: 400px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+.signup-form h2{
+	color: #000000;
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+.signup-form h2:before, .signup-form h2:after{
+	content: "";
+	height: 2px;
+	width: 30%;
+	background: #d4d4d4;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}	
+.signup-form h2:before{
+	left: 0;
+}
+.signup-form h2:after{
+	right: 0;
+}
+.signup-form .hint-text{
+	color: #000;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.signup-form form{
+	color: #000000;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #ffffff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form .form-group{
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"]{
+	margin-top: 3px;
+}
+.signup-form .btn{        
+	font-size: 16px;
+	font-weight: bold;		
+	min-width: 140px;
+	background: #007bff;
+	outline: none !important;
+}
+.signup-form .row div:first-child{
+	padding-right: 10px;
+}
+.signup-form .row div:last-child{
+	padding-left: 10px;
+}    	
+.signup-form a{
+	color: #007bff;
+	text-decoration: none;
+}
+.signup-form a:hover{
+	text-decoration: underline;
+}
+.signup-form form a{
+	color: #007bff;
+	text-decoration: none;
+}	
+.signup-form form a:hover{
+	text-decoration: underline;
+}
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-right: 17px;
+  margin-top: -27px;
+  position: relative;
+  z-index: 2;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+	text-align: center;
+	font-size: 14px;
+}
